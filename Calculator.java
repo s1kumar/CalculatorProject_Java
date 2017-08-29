@@ -85,7 +85,7 @@ public class Calculator {
 			Square_root sq = new Square_root();
 			double sqr =sq.getSqroot(number);
 			} else if(option.equals("n")) {
-			ystem.out.println("Please proceed");
+			System.out.println("Please proceed");
 		}
 				Scanner sc5 = new Scanner(System.in);
 				System.out.println("Want to find pi value of a number? y/n:");
