@@ -16,7 +16,7 @@ public class Power extends Math_Operation {
 		try{
 			System.out.println(Math.pow(number1, number2));
 		} catch (Exception e) {
-				System.out.println(("the exception is :"  + e));
+				System.out.println("the exception is :"  + e);
 		}
 		
 		
