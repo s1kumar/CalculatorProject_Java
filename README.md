@@ -1,5 +1,5 @@
 # CalculatorProject_Java
-This calculator works for basic functions. The user may enter any two numbers and it performs the basic functions like:
+This  simple calculator works for basic functions. The user may enter any two numbers and enter any one of the basic functions :
 * '+' for Addition;
 * '-' for subtraction;
 * '*' for multiplication; 
