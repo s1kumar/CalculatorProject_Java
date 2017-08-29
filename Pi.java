@@ -13,7 +13,7 @@ public class Pi extends Math_Operation {
 		try{
 			System.out.println(Math.PI*(number1+number2));
 		} catch (Exception e) {
-				System.out.println(("the exception is :"  + e));
+				System.out.println("the exception is : "  + e);
 		}
 		
 		
@@ -23,7 +23,7 @@ public class Pi extends Math_Operation {
 		try{
 			System.out.println(Math.PI*(number));	
 			} catch (Exception e) {
-				System.out.println(("the exception is :"  + e));
+				System.out.println("the exception is : "  + e);
 			}
 		return number;
 		
