@@ -4,7 +4,7 @@ This calculator works for basic functions. The user may enter any two numbers an
 * - for subtraction;
 * * for multiplication; 
 * / for division; 
-*  % for modulus; 
+* % for modulus; 
 * p for Power; 
 * r for Result;
 * (a+b) ^2 for a+b the whole square; 
