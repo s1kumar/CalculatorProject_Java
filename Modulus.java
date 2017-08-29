@@ -14,7 +14,7 @@ public class Modulus extends Math_Operation {
 			System.out.println(number1%number2);
 			
 		} catch (Exception e) {
-				System.out.println(("the exception is :"  + e));
+				System.out.println("the exception is : "  + e);
 		}	
 		
 		
