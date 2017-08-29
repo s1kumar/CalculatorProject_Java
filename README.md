@@ -7,7 +7,7 @@ This calculator works for basic functions. The user may enter any two numbers an
 * '%' for modulus; 
 * 'p' for Power; 
 * 'r' for Result;
-* 'ab' for a+b the whole square; 
+* 'ab' for (a+b)2;
 * 'ab1' for a2-b2;
 * 'pi' for Pi;
 
