@@ -13,9 +13,9 @@ public class APlusBWholeSquared extends Math_Operation{
 	public void getOperator(double number1,double number2){
 		try{
 			System.out.println(number1*number1+number2*number2+2*number1*number2);
-			} catch (Exception e) {
-				System.out.println("the exception is :"  + e);
-			}
+		} catch (Exception e) {
+				System.out.println(" the exception is : "  + e);
+		}
 		
 		
 	}
