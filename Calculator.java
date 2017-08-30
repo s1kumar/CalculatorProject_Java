@@ -73,19 +73,19 @@ public class Calculator {
 				 System.out.println("Please enter a valid operatorType:");
 				 operatorType=	sc3.next();
 				 
-	        }
+	        	}
 	      	
 	      	Scanner sc4 = new Scanner(System.in);
 		System.out.println("Want to find square root of a number? y/n:");
 		String option=sc4.next();
 		double number=0.00;
 				if(option.equalsIgnoreCase("y")){
-						System.out.println("Enter a double");
-						number = sc4.nextDouble();
-						Square_root sq = new Square_root();
-						double sqr =sq.getSqroot(number);
-						} else if(option.equals("n")) {
-						System.out.println("Please proceed");
+					System.out.println("Enter a double");
+					number = sc4.nextDouble();
+					Square_root sq = new Square_root();
+					double sqr =sq.getSqroot(number);
+					} else if(option.equals("n")) {
+					System.out.println("Please proceed");
 						
 				}
 		Scanner sc5 = new Scanner(System.in);
@@ -100,7 +100,7 @@ public class Calculator {
 				} else if(option.equals("n")) {
 				System.out.println("Please proceed");
 				
-				}
+			}
 				
 		System.out.println("Want to exit? please type EXIT");
 		Scanner sc6 = new Scanner(System.in);
