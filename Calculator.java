@@ -66,7 +66,7 @@ public class Calculator {
 	      	choice  = "y";
 	      	
 	      	AllOperators selectOperator = new AllOperators();
-		    selectOperator.getFunction(operatorType, number1, number2);
+		selectOperator.getFunction(operatorType, number1, number2);
 		      		
 		     if((sc3.equals(operatorType))){
 				
@@ -76,9 +76,9 @@ public class Calculator {
 	        }
 	      	
 	      	Scanner sc4 = new Scanner(System.in);
-			System.out.println("Want to find square root of a number? y/n:");
-			String option=sc4.next();
-			double number=0.00;
+		System.out.println("Want to find square root of a number? y/n:");
+		String option=sc4.next();
+		double number=0.00;
 				if(option.equalsIgnoreCase("y")){
 						System.out.println("Enter a double");
 						number = sc4.nextDouble();
