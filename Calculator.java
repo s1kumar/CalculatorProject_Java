@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculator {
 		static String choice;
 
-		public static void main(String[] args) {
+	public static void main(String[] args) {
 			
 			/** this is my <code> Calculator class </code> program
 			*@author s1kumar 
@@ -16,7 +16,7 @@ public class Calculator {
 		 boolean shouldQuit = false;	
 		 do {
 			String operatorType=null;
-			Scanner sc1= new Scanner(System.in);
+			Scanner sc1 = new Scanner(System.in);
 			String s1 = "";
 			double number1 = 0;
 			boolean validNumber = false;
@@ -39,7 +39,7 @@ public class Calculator {
 				number1 = Double.parseDouble(s1);
 			}
 		//user entering the second number 
-		Scanner sc2= new Scanner(System.in);
+		Scanner sc2 = new Scanner(System.in);
 	        double number2 = 0;
 	        String s2 = "";
 	        boolean validNumber1 = false;
@@ -61,15 +61,13 @@ public class Calculator {
 		}
 	      	
 	      	System.out.println(" Please enter: \n + for Addition,  \n - for subtraction, \n * for multiplication, \n / for division, \n % for modulus, \n p for Power, \n r for Result \n (a+b) ^2 for a+b the whole square, \n a2-b2 for a2-b2,\n pi for PI: ");
-	      	Scanner sc3=new Scanner(System.in);
+	      	Scanner sc3 = new Scanner(System.in);
 	      	operatorType=sc3.next();
 	      	choice  = "y";
 	      	
 	      	AllOperators selectOperator = new AllOperators();
-		    selectOperator.getFunction(operatorType, number1, number2);
-		      		
-		     if((sc3.equals(operatorType))){
-				
+		selectOperator.getFunction(operatorType, number1, number2);
+		if((sc3.equals(operatorType))){
 			System.out.println("Please enter a valid operatorType:");
 			operatorType=	sc3.next();
 				 
