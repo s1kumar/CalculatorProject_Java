@@ -69,7 +69,7 @@ public class Calculator {
 		selectOperator.getFunction(operatorType, number1, number2);
 		if((sc3.equals(operatorType))){
 			System.out.println("Please enter a valid operatorType:");
-			operatorType=	sc3.next();
+			operatorType =	sc3.next();
 				 
 	        }
 	      	
