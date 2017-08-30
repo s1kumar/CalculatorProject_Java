@@ -13,7 +13,7 @@ public class ASquaredMinusBSquared extends Math_Operation {
 		
 		try{
 			System.out.println((number1+number2)*(number1-number2));
-		} catch (Exception e) {
+			} catch (Exception e) {
 				System.out.println("the exception is :"  + e);
 		}
 		
