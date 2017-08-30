@@ -88,14 +88,13 @@ public class Calculator {
 						System.out.println("Please proceed");
 						
 				}
-				Scanner sc5 = new Scanner(System.in);
-				System.out.println("Want to find pi value of a number? y/n:");
-				option=sc5.next();
-				double num=0.00;
-				if(option.equalsIgnoreCase("y")){
-						System.out.println("Enter a double");
-						num = sc5.nextDouble();
-				
+		Scanner sc5 = new Scanner(System.in);
+		System.out.println("Want to find pi value of a number? y/n:");
+		option=sc5.next();
+		double num=0.00;
+			if(option.equalsIgnoreCase("y")){
+				System.out.println("Enter a double");
+				num = sc5.nextDouble();
 				Pi pi = new Pi();
 				double p =pi.getOperator1(num);
 				} else if(option.equals("n")) {
@@ -103,19 +102,16 @@ public class Calculator {
 				
 				}
 				
-				System.out.println("Want to exit? please type EXIT");
-				Scanner sc6 = new Scanner(System.in);
-				String	q = sc6.next();
-					if("EXIT".equals(q)){
-						System.out.println("Thank you!!");
-				
-						shouldQuit = true;
-					}
-					
-					
-					else 	{
-					shouldQuit = false;
-					}
+		System.out.println("Want to exit? please type EXIT");
+		Scanner sc6 = new Scanner(System.in);
+		String	q = sc6.next();
+			if("EXIT".equals(q)){
+			System.out.println("Thank you!!");
+			shouldQuit = true;
+			}
+			else 	{
+			shouldQuit = false;
+			}
 	   }	 while (shouldQuit==false);	
 	} // end main			
 } // end class	
