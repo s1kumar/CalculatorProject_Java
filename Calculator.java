@@ -21,48 +21,43 @@ public class Calculator {
 			double number1 = 0;
 			boolean validNumber = false;
 		        do {
-						System.out.println("Enter a valid first number: ");
-						s1 = sc1.next();
-				        try {
-				        		number1 = Double.parseDouble(s1);
-				        		validNumber = true;
-				        		} catch (Exception e) {
-				        			validNumber = false;
+				System.out.println("Enter a valid first number: ");
+				s1 = sc1.next();
+				try {
+				number1 = Double.parseDouble(s1);
+				 validNumber = true;
+				 } catch (Exception e) {
+				validNumber = false;
 				        		}
-				} while (validNumber == false);
+			} while (validNumber == false);
 		        
 		      	if(number1==0){
 					
-					 System.out.println("Please enter a valid first number");
-					 s1=	sc1.next();
+				System.out.println("Please enter a valid first number");
+				 s1=	sc1.next();
 					
-					 number1 = Double.parseDouble(s1);
-				}
+				 number1 = Double.parseDouble(s1);
+			}
 		    //user entering the second number 
-			Scanner sc2= new Scanner(System.in);
+		Scanner sc2= new Scanner(System.in);
 	        double number2 = 0;
 	        String s2 = "";
 	        boolean validNumber1 = false;
 	        do {
-					System.out.println("Enter a valid second number: ");
-
-			        s2 = sc2.next();
-			        
-			        try {
-			        			number2 = Double.parseDouble(s2);
-			        			validNumber1 = true;
-			        } catch (Exception e) {
-			        			validNumber1 = false;
+			System.out.println("Enter a valid second number: ");
+			s2 = sc2.next();
+			 try {
+			 number2 = Double.parseDouble(s2);
+			 validNumber1 = true;
+			  } catch (Exception e) {
+			  validNumber1 = false;
 			        	}
-			} while (validNumber1 == false);
+		} while (validNumber1 == false);
 	        
 	      	if(number2==0){
-				
-				 System.out.println("Please enter a valid second number:");
-				 s2=	sc2.next();
-				
-				 number2 = Double.parseDouble(s2);
-				
+			System.out.println("Please enter a valid second number:");
+			s2=	sc2.next();
+			 number2 = Double.parseDouble(s2);
 			}
 	      	
 	      	System.out.println(" Please enter: \n + for Addition,  \n - for subtraction, \n * for multiplication, \n / for division, \n % for modulus, \n p for Power, \n r for Result \n (a+b) ^2 for a+b the whole square, \n a2-b2 for a2-b2,\n pi for PI: ");
