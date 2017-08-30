@@ -107,7 +107,7 @@ public class Calculator {
 		shouldQuit = true;
 		} else 	{
 		shouldQuit = false;
-					}
+		}
 	   }	 while (shouldQuit==false);	
 	} // end main			
 } // end class	
