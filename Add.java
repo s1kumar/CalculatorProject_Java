@@ -14,8 +14,8 @@ public class Add extends Math_Operation  {
 		
 	public void getOperator(double number1, double number2){
 		try{
-		System.out.println(number1+number2);
-		} catch (Exception e) {
+			System.out.println(number1+number2);
+			} catch (Exception e) {
 			System.out.println("the exception is :"  + e);
 		}
 	}
