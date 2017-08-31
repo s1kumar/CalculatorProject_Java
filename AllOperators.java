@@ -50,11 +50,11 @@ public class AllOperators{
 			mod.getOperator(number1, number2);
 			}
 		ab = new APlusBWholeSquared();
-			if (operatorType.equals("(a+b)^2")){
+			if (operatorType.equals("ab")){
 			ab.getOperator(number1, number2);
 			}
 		ab1 = new ASquaredMinusBSquared();
-			if (operatorType.equals("a2-b2")){
+			if (operatorType.equals("ab1")){
 			ab1.getOperator(number1, number2);
 			}
 		pi = new Pi();
