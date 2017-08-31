@@ -66,7 +66,7 @@ public class Calculator {
 				
 			}
 	      	
-	      	System.out.println(" Please enter: \n + for Addition,  \n - for subtraction, \n * for multiplication, \n / for division, \n % for modulus, \n p for Power, \n r for Result \n (a+b) ^2 for a+b the whole square, \n a2-b2 for a2-b2,\n pi for PI: ");
+	      	System.out.println(" Please enter: \n + for Addition,  \n - for subtraction, \n * for multiplication, \n / for division, \n % for modulus, \n p for Power, \n r for Result \n ab for a+b the whole square, \n ab1 for a2-b2,\n pi for PI: ");
 	      	Scanner sc3=new Scanner(System.in);
 	      	operatorType=sc3.next();
 	      	choice  = "y";
