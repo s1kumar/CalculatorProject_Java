@@ -1,4 +1,10 @@
-
+/** this is my <code> AllOperators </code> 
+	*@author s1kumar 
+	*date:8/28/2017
+	*@version 1.0.0
+	This class has getFunction method for doing math operations.
+	@param 	operatorType,number1, and number2; getFunction method in this class has parameters operatorType, number1 and number2 and at runtime  these parameters will take on the values of the arguments that are passed in by the user.
+	*/
 public class AllOperators{
 
 	Modulus mod;
@@ -12,13 +18,7 @@ public class AllOperators{
 	Power p;
 	Pi pi;
 	
-	/** this is my <code> AllOperators class  </code> 
-	*@author s1kumar 
-	*date:8/28/2017
-	*@version 1.0.0
-	This class has getFunction method for doing math operations.
-	@param 	operatorType,number1, and number2; getFunction method in this class has parameters operatorType, number1 and number2 and at runtime  these parameters will take on the values of the arguments that are passed in by the user.
-	*/
+	
 		public Math_Operation getFunction( String operatorType, double number1, double number2){
 		//calling the methods from all operator type classes
 		a = new Add();
